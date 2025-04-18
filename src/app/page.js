@@ -1,103 +1,109 @@
+"use client"; // If using app router
+
 import Image from "next/image";
+import { useEffect } from "react";
+import EducationSection from "../../components/EducationSection";
+import ProjectsSection from "../../components/Project";
+import DomainDescription from "../../components/DomainDescription";
+import AnimatedHighlights from "../../components/AnimatedHighlights";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  // Smooth scroll for in-page links
+  useEffect(() => {
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute("href"));
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+    });
+  }, []);
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  return (
+    <div className="min-h-screen bg-gray-50 text-gray-800">
+      {/* Navbar */}
+      <nav className="fixed w-full bg-white shadow z-10">
+        <div className="container mx-auto flex justify-between items-center p-4">
+          <h1 className="text-xl font-bold">My Portfolio</h1>
+          <ul className="flex gap-6">
+            <li>
+              <a href="#about" className="hover:text-blue-500">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#education" className="hover:text-blue-500">
+                Education
+              </a>
+            </li>
+            <li>
+              <a href="#projects" className="hover:text-blue-500">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="#DomainDesc" className="hover:text-blue-500">
+                Domain Description
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="hover:text-blue-500">
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
+      </nav>
+
+      <main className="pt-5 container mx-auto px-4">
+        {/* About Section */}
+        <section
+          id="about"
+          className="flex flex-col md:flex-row items-center justify-between py-20"
+        >
+          <AnimatedHighlights />
+        </section>
+
+        {/* Education Section */}
+        <section id="education" className="py-1">
+          <EducationSection />
+        </section>
+
+        {/* Projects Section */}
+        <section id="projects" className="py-1">
+          <ProjectsSection />
+        </section>
+
+        <section id="DomainDesc" className="py-1">
+          <DomainDescription />
+        </section>
+
+        {/* Contact Section */}
+        <section id="contact" className="py-16 bg-gray-50">
+          <div className="max-w-5xl mx-auto text-center bg-white shadow-lg rounded-xl p-12 transition hover:shadow-2xl">
+            <h2 className="text-4xl font-bold mb-6 text-gray-800">
+              Get in Touch
+            </h2>
+            <p className="text-lg text-gray-700 mb-4">
+              I'm always open to discussing new projects, creative ideas, or
+              opportunities to be part of your vision. Whether you have a
+              question, want to collaborate, or just want to say hello—my inbox
+              is open.
+            </p>
+            <p className="text-lg text-gray-700">
+              Feel free to reach out via email:{" "}
+              <a
+                href="mailto:shreyai1724@gmail.com"
+                className="text-blue-600 font-semibold underline hover:text-blue-800 transition duration-200"
+              >
+                shreyai1724@gmail.com
+              </a>
+            </p>
+          </div>
+        </section>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }
