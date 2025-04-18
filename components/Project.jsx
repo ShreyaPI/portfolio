@@ -1,31 +1,31 @@
 const projects = [
   {
     title: "Physics-backed Underwater Image Restoration",
-    image: "/projects/CEVI.jpg", // put this image inside /public/projects/
+    image: "/portfolio/projects/CEVI.jpg", // put this image inside /public/projects/
     description:
       "Worked as a research intern at CEVI to work on the relationship between wavelength-dependent attenuation coefficients and underwater visibility conditions.",
-    link: "/projects/project1",
+    link: "/portfolio/project1",
   },
   {
     title: "Few-Shot Object Detection",
-    image: "/projects/FSOD architecture.png", // also put in /public/projects/
+    image: "/portfolio/projects/FSOD architecture.png", // also put in /public/projects/
     description:
       "Implemented the FSOD model using Detectron2 and ResNet by implementing a 2 stage fine-tuning approach and cut-out augmentation, achieving 18.8% improvement over prior state-of-the-art methods.",
-    link: "/projects/project2",
+    link: "/portfolio/project2",
   },
   {
     title: "Board of Studies - University Course Management System",
-    image: "/projects/BoardOfStudies.png", // also put in /public/projects/
+    image: "/portfolio/projects/BoardOfStudies.png", // also put in /public/projects/
     description:
       "Developed a Next.js web application integrated with Supabase for managing university courses and syllabi, with a role based access.",
-    link: "/projects/project4",
+    link: "/portfolio/project3",
   },
   {
     title: "Optical Flow - based Vehicle Tracking System using Motion Saliency",
-    image: "/projects/CV.png", // also put in /public/projects/
+    image: "/portfolio/projects/CV.png", // also put in /public/projects/
     description:
       "Integrated the Lucas-Kanade algorithm with motion saliency detection, achieving ±10% accuracy in vehicle speed estimation.",
-    link: "/projects/project3",
+    link: "/portfolio/project4",
   },
 ];
 

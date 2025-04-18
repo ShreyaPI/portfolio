@@ -134,7 +134,7 @@ export default function AnimatedHighlights() {
                 GitHub
               </a>
               <a
-                href="/Shreya_Inamdar_CV.pdf"
+                href="/portfolio/Shreya_Inamdar_CV.pdf"
                 className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700"
                 download
               >
@@ -147,7 +147,7 @@ export default function AnimatedHighlights() {
         {/* Profile Image */}
         <div className="md:w-1/3 w-full flex justify-center">
           <div className="rounded-2xl shadow-xl overflow-hidden border-2 border-gray-200">
-            <img
+            <Image
               src="portfolio/image/ME.jpg"
               alt="Profile Picture"
               width={300}
