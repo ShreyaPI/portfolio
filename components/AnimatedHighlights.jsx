@@ -147,8 +147,8 @@ export default function AnimatedHighlights() {
         {/* Profile Image */}
         <div className="md:w-1/3 w-full flex justify-center">
           <div className="rounded-2xl shadow-xl overflow-hidden border-2 border-gray-200">
-            <Image
-              src="/image/ME.jpg"
+            <img
+              src="portfolio/image/ME.jpg"
               alt="Profile Picture"
               width={300}
               height={300}
