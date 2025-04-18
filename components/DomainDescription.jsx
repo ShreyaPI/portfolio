@@ -12,7 +12,7 @@ export default function DomainDescription() {
     if (inView) setShow(true);
   }, [inView]);
   return (
-    <section id="domain" className="py-20 bg-gray-50 px-6 md:px-12">
+    <section id="domain" className="py-20 bg-gray-50 px-6 md:px-12" ref={ref}>
       <div className="max-w-5xl mx-auto bg-white shadow-md rounded-xl p-8">
         <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
           Domain Description
