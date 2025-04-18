@@ -24,7 +24,6 @@ export default function DomainDescription() {
               services, is renowned for its innovation in hardware and software,
               with a particular focus on emerging technologies like{" "}
               <RoughNotation type="underline" show={show} color="#c084fc">
-                {" "}
                 computer vision
               </RoughNotation>
               . With an annual research and development (R&D) budget of
@@ -43,7 +42,6 @@ export default function DomainDescription() {
               Computer engineers contribute significantly to Apple’s custom
               silicon, such as the{" "}
               <RoughNotation type="underline" show={show} color="#f472b6">
-                {" "}
                 M chip series, which feature dedicated Neural Engines optimized
                 for computer vision tasks
               </RoughNotation>
@@ -66,7 +64,6 @@ export default function DomainDescription() {
               recognition, and 3D scene reconstruction. These algorithms power
               iconic features such as{" "}
               <RoughNotation type="underline" show={show} color="#066b54">
-                {" "}
                 Face ID and ARKit
               </RoughNotation>
               . Engineers also enhance Apple’s Core ML framework, making it
@@ -181,7 +178,6 @@ export default function DomainDescription() {
               Apple’s computational photography research, leveraging deep
               learning for image enhancement, has{" "}
               <RoughNotation type="underline" show={show} color="#fde68a">
-                {" "}
                 transformed iPhone photography
               </RoughNotation>
               . Features like Night Mode, Deep Fusion, and Photographic Styles,
