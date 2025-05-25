@@ -17,10 +17,10 @@ export default function AnimatedHighlights() {
   }, [inView]);
 
   return (
-    <section ref={ref} id="about" className="py-20 bg-white">
-      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+    <section ref={ref} id="about" className="py-16 bg-white">
+      <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10 md:gap-8">
         {/* Left Content */}
-        <div className="md:w-2/3">
+        <div className="md:w-2/3 w-full">
           <RoughNotationGroup show={show}>
             <h2 className="text-3xl font-bold mb-4">
               Hi, I’m{" "}
@@ -139,7 +139,7 @@ export default function AnimatedHighlights() {
                 GitHub
               </a>
               <a
-                href={`${basePath}/Shreya_Inamdar_CV.pdf`}
+                href={`${basePath}/portfolio/Shreya_Inamdar_CV.pdf`}
                 className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700"
                 download
               >
@@ -150,14 +150,15 @@ export default function AnimatedHighlights() {
         </div>
 
         {/* Right Side Image */}
-        <div className="md:w-1/3 w-full flex justify-center">
+        <div className="md:w-1/3 w-full flex justify-center md:justify-end">
           <div className="rounded-2xl shadow-xl overflow-hidden border-2 border-gray-200">
             <Image
-              src={`${basePath}/image/ME.jpg`}
+              src={`${basePath}/portfolio/image/ME.jpg`}
               alt="Profile Picture"
-              width={300}
-              height={300}
-              className="object-cover w-[300px] h-[300px]"
+              width={360}
+              height={360}
+              className="object-cover w-[360px] h-[360px]"
+              priority
             />
           </div>
         </div>

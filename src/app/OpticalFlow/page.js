@@ -46,7 +46,7 @@ export default function OpticalFlowTracking() {
         <h2 style={styles.heading}>Visual Demonstrations</h2>
         <center>
         <img
-          src={`${basePath}/projects/CV.png`}
+          src={`${basePath}/portfolio/projects/CV.png`}
           alt="Vehicle Tracking Visualization"
           style={styles.image}
         />
@@ -58,7 +58,7 @@ export default function OpticalFlowTracking() {
         <h2 style={styles.heading}>Project Documentation</h2>
         <p>You can download the complete research paper below:</p>
         <a
-          href={`${basePath}/Enhanced Optical Flow Tracking with Motion Saliency.pdf`}
+          href={`${basePath}/portfolio/Enhanced Optical Flow Tracking with Motion Saliency.pdf`}
           download
           style={styles.downloadButton}
         >

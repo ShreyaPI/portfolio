@@ -46,12 +46,12 @@ export default function FewShotObjectDetection() {
         <h2 style={styles.heading}>Architecture</h2>
         <center>
         <img
-          src={`${basePath}/projects/FSOD architecture.png`}
+          src={`${basePath}/portfolio/projects/FSOD architecture.png`}
           alt="FSOD Architecture 1"
           style={styles.image}
         />
         <img
-          src={`${basePath}/projects/FSOD results.png`} // Make sure this file exists
+          src={`${basePath}/portfolio/projects/FSOD results.png`} // Make sure this file exists
           alt="FSOD Results"
           style={{ ...styles.image, marginTop: "1rem" }}
         />
@@ -63,7 +63,7 @@ export default function FewShotObjectDetection() {
         <h2 style={styles.heading}>Project Documentation</h2>
         <p>You can download the full research paper below:</p>
         <a
-          href={`${basePath}/2279.pdf`}
+          href={`${basePath}/portfolio/2279.pdf`}
           download
           style={styles.downloadButton}
         >

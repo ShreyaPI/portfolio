@@ -45,7 +45,7 @@ export default function UnderwaterRestoration() {
         <h2 style={styles.heading}>Results and Visualizations</h2>
         <center>
         <img
-          src={`${basePath}/projects/CEVIresults2.png`}
+          src={`${basePath}/portfolio/projects/CEVIresults2.png`}
           alt="Comparison between predicted and actual rendered patches"
           style={styles.image}
         />
@@ -55,7 +55,7 @@ export default function UnderwaterRestoration() {
         </p>
 
         <img
-          src={`${basePath}/projects/CEVIresults.png`}
+          src={`${basePath}/portfolio/projects/CEVIresults.png`}
           alt="The predicts vs actual physical parameter values"
           style={{ ...styles.image, marginTop: "1rem" }}
         />
@@ -70,7 +70,7 @@ export default function UnderwaterRestoration() {
         <h2 style={styles.heading}>Project Documentation</h2>
         <p>You can download the full report for technical details and experimental results:</p>
         <a
-          href={`${basePath}/Mini_Project_Report.pdf`}
+          href={`${basePath}/portfolio/Mini_Project_Report.pdf`}
           download
           style={styles.downloadButton}
         >

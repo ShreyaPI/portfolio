@@ -43,7 +43,7 @@ export default function BoardOfStudies() {
         <div style={styles.grid}>
           <div style={styles.gridItem}>
             <img
-              src={`${basePath}/projects/DB.png`}
+              src={`${basePath}/portfolio/projects/DB.png`}
               alt="Database Schema"
               style={styles.image}
             />
@@ -51,7 +51,7 @@ export default function BoardOfStudies() {
           </div>
           <div style={styles.gridItem}>
             <img
-              src={`${basePath}/projects/login.png`}
+              src={`${basePath}/portfolio/projects/login.png`}
               alt="Login Page"
               style={styles.image}
             />
@@ -59,7 +59,7 @@ export default function BoardOfStudies() {
           </div>
           <div style={styles.gridItem}>
             <img
-              src={`${basePath}/projects/dashboard.png`}
+              src={`${basePath}/portfolio/projects/dashboard.png`}
               alt="Dashboard"
               style={styles.image}
             />
@@ -67,7 +67,7 @@ export default function BoardOfStudies() {
           </div>
           <div style={styles.gridItem}>
             <img
-              src={`${basePath}/projects/syllabus.png`}
+              src={`${basePath}/portfolio/projects/syllabus.png`}
               alt="Syllabus Page"
               style={styles.image}
             />
