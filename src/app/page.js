@@ -49,6 +49,14 @@ export default function Home() {
               </a>
             </li>
             <li>
+              <a
+                href="/portfolio/case-studies"
+                className="hover:text-blue-500"
+              >
+                Case Studies
+              </a>
+            </li>
+            <li>
               <a href="#contact" className="hover:text-blue-500">
                 Contact
               </a>
@@ -76,6 +84,7 @@ export default function Home() {
           <ProjectsSection />
         </section>
 
+        {/* Domain Description Section */}
         <section id="DomainDesc" className="py-1">
           <DomainDescription />
         </section>

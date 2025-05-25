@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
-  output: "export",
-  basePath: "/portfolio", // Add this to match your repository name
+  output: 'export',
+  basePath: isProd ? '/portfolio' : '',
+  assetPrefix: isProd ? '/portfolio/' : '',
   images: {
-    unoptimized: true, // Required for static exports to GitHub Pages
+    unoptimized: true,
   },
 };
 
