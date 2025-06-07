@@ -35,15 +35,15 @@ export default function AnimatedHighlights() {
                 Pune, India
               </RoughNotation>
               . I have been studying{" "}
-              <RoughNotation type="box" color="#86efac">
+              <RoughNotation type="underline" color="#86efac">
                 Computer Vision
               </RoughNotation>
               ,{" "}
-              <RoughNotation type="box" color="#fca5a5">
+              <RoughNotation type="underline" color="#fca5a5">
                 Machine Learning
               </RoughNotation>
               , and{" "}
-              <RoughNotation type="box" color="#c084fc">
+              <RoughNotation type="underline" color="#c084fc">
                 Deep Learning
               </RoughNotation>
               .
@@ -51,19 +51,19 @@ export default function AnimatedHighlights() {
 
             <p className="text-gray-700 text-lg mb-4">
               I’m proficient in programming languages like{" "}
-              <RoughNotation type="highlight" color="#93c5fd">
+              <RoughNotation type="underline" color="#93c5fd">
                 Python
               </RoughNotation>
               ,{" "}
-              <RoughNotation type="highlight" color="#fbbf24">
+              <RoughNotation type="underline" color="#fbbf24">
                 JavaScript
               </RoughNotation>
               ,{" "}
-              <RoughNotation type="highlight" color="#34d399">
+              <RoughNotation type="underline" color="#34d399">
                 C
               </RoughNotation>
               , and{" "}
-              <RoughNotation type="highlight" color="#e879f9">
+              <RoughNotation type="underline" color="#e879f9">
                 C++
               </RoughNotation>
               . I enjoy building smart, scalable systems that solve real-world
@@ -89,30 +89,26 @@ export default function AnimatedHighlights() {
               </RoughNotation>
               , having lived in several states across India. This has helped me
               become proficient in multiple languages like{" "}
-              <RoughNotation type="box" color="#fcd34d">
+              <RoughNotation type="underline" color="#fcd34d">
                 English
               </RoughNotation>
               ,{" "}
-              <RoughNotation type="box" color="#fdba74">
+              <RoughNotation type="underline" color="#fdba74">
                 Hindi
               </RoughNotation>
               ,{" "}
-              <RoughNotation type="box" color="#bbf7d0">
+              <RoughNotation type="underline" color="#bbf7d0">
                 Marathi
               </RoughNotation>
               , and{" "}
-              <RoughNotation type="box" color="#c4b5fd">
+              <RoughNotation type="underline" color="#c4b5fd">
                 Kannada
               </RoughNotation>
               .
             </p>
 
             <p className="text-gray-700 text-lg mb-4">
-              I’ve consistently maintained{" "}
-              <RoughNotation type="highlight" color="#fde68a">
-                strong academic scores
-              </RoughNotation>{" "}
-              and strive for excellence in every project I take up.
+              I’ve consistently maintained strong academic scores and strive for excellence in every project I take up.
             </p>
 
             <p className="text-gray-700 text-lg mb-4">
@@ -153,7 +149,7 @@ export default function AnimatedHighlights() {
         <div className="md:w-1/3 w-full flex justify-center md:justify-end">
           <div className="rounded-2xl shadow-xl overflow-hidden border-2 border-gray-200">
             <Image
-              src={`${basePath}/portfolio/image/ME.jpg`}
+              src={`${basePath}/image/ME.jpg`}
               alt="Profile Picture"
               width={360}
               height={360}

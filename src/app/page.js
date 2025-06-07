@@ -6,66 +6,53 @@ import EducationSection from "../../components/EducationSection";
 import ProjectsSection from "../../components/Project";
 import DomainDescription from "../../components/DomainDescription";
 import AnimatedHighlights from "../../components/AnimatedHighlights";
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
 
 export default function Home() {
-  // Smooth scroll for in-page links
   useEffect(() => {
-    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-      anchor.addEventListener("click", function (e) {
+    // Add smooth scrolling behavior to the entire document
+    document.documentElement.style.scrollBehavior = 'smooth';
+    
+    // Handle anchor links
+    const handleLinkClick = (e) => {
+      const href = e.currentTarget.getAttribute('href');
+      if (href?.startsWith('#')) {
         e.preventDefault();
-        const target = document.querySelector(this.getAttribute("href"));
-        if (target) {
-          target.scrollIntoView({ behavior: "smooth" });
+        const targetId = href.replace('#', '');
+        const element = document.getElementById(targetId);
+        if (element) {
+          const navbarHeight = 80; // Approximate navbar height
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+          });
         }
-      });
+      }
+    };
+
+    // Add click handlers to all anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', handleLinkClick);
     });
+
+    // Cleanup
+    return () => {
+      document.documentElement.style.scrollBehavior = 'auto';
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.removeEventListener('click', handleLinkClick);
+      });
+    };
   }, []);
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
-      {/* Navbar */}
-      <nav className="fixed w-full bg-white shadow z-10">
-        <div className="container mx-auto flex justify-between items-center p-4">
-          <h1 className="text-xl font-bold">My Portfolio</h1>
-          <ul className="flex gap-6">
-            <li>
-              <a href="#about" className="hover:text-blue-500">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#education" className="hover:text-blue-500">
-                Education
-              </a>
-            </li>
-            <li>
-              <a href="#projects" className="hover:text-blue-500">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a href="#DomainDesc" className="hover:text-blue-500">
-                Domain Description
-              </a>
-            </li>
-            <li>
-              <a
-                href="/portfolio/case-studies"
-                className="hover:text-blue-500"
-              >
-                Case Studies
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="hover:text-blue-500">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <Navbar />
 
-      <main className="pt-5 container mx-auto px-4">
+      <main className="pt-20 container mx-auto px-4">
         {/* About Section */}
         <section
           id="about"
@@ -113,6 +100,8 @@ export default function Home() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </div>
   );
 }
