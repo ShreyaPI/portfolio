@@ -43,7 +43,7 @@ export default function GameKitMatchmakingCaseStudy() {
               <p className="text-gray-700 mb-4">
                 When a player initiates a multiplayer match in a strategy game via GameKit on their iPad, the system evaluates available players, forms a group of four with similar skills and low latency, and starts the game quickly, ensuring a fair and responsive experience.
               </p>
-              <h3 className="text-xl font-semibold mb-3">Core Algorithms:</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Core Algorithms:</h3>
               <ul className="list-disc pl-6 space-y-3 text-gray-700">
                 <li>
                   <strong>Priority Queue (Heap):</strong> Prioritizes match candidates in UCS and A*, favoring low-cost configurations.
@@ -69,7 +69,7 @@ export default function GameKitMatchmakingCaseStudy() {
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Rule-Based Scoring with AI Enhancements</h2>
             <div className="space-y-6">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3">Edge Weight Calculation</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Edge Weight Calculation</h3>
                 <p className="text-gray-700 mb-4">
                   Edge weights are dynamically calculated using a combination of factors:
                 </p>
@@ -82,7 +82,7 @@ export default function GameKitMatchmakingCaseStudy() {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3">Benefits</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Benefits</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
                   <li>Increases personalization and fairness of matches</li>
                   <li>Reduces player churn through behavioral alignment</li>
@@ -97,7 +97,7 @@ export default function GameKitMatchmakingCaseStudy() {
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Graph Clustering for Scalability</h2>
             <div className="space-y-6">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3">Optimization Strategy</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Optimization Strategy</h3>
                 <p className="text-gray-700 mb-4">
                   To handle large player bases efficiently, the matchmaking graph is partitioned into smaller subgraphs based on:
                 </p>
@@ -109,7 +109,7 @@ export default function GameKitMatchmakingCaseStudy() {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3">Benefits</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Benefits</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
                   <li>Reduces computational complexity</li>
                   <li>Improves latency and matchmaking speed</li>
@@ -141,7 +141,7 @@ export default function GameKitMatchmakingCaseStudy() {
 
             {/* Core Algorithms */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-3">Time Complexity Analysis</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Time Complexity Analysis</h3>
               <ul className="space-y-4 text-gray-700">
                 <li>
                   <strong>Uniform Cost Search (UCS):</strong>
@@ -173,7 +173,7 @@ export default function GameKitMatchmakingCaseStudy() {
 
             {/* Space and Scalability */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-3">Space and Scalability</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Space and Scalability</h3>
               <ul className="space-y-4 text-gray-700">
                 <li>
                   <strong>Space Complexity:</strong>
@@ -190,7 +190,7 @@ export default function GameKitMatchmakingCaseStudy() {
 
             {/* A* Heuristic Parameters */}
             <div className="bg-gray-50 p-6 rounded-lg mb-8">
-              <h3 className="text-xl font-semibold mb-3">A* Heuristic Parameters</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">A* Heuristic Parameters</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>
                   <strong>Skill Difference:</strong> Weighted absolute difference in player ratings
@@ -215,7 +215,7 @@ export default function GameKitMatchmakingCaseStudy() {
 
             {/* Trade-offs */}
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Implementation Trade-offs</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Implementation Trade-offs</h3>
               <ul className="space-y-2 text-gray-700">
                 <li>
                   <strong>A* Optimization:</strong> Trades perfect optimality for improved speed while maintaining near-optimal results

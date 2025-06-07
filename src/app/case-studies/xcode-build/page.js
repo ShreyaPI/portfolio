@@ -58,7 +58,7 @@ export default function XcodeBuildCaseStudy() {
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Kahn's Algorithm for Xcode</h2>
             
             <div className="bg-gray-50 p-6 rounded-lg mb-6">
-              <h3 className="text-xl font-semibold mb-4">Steps:</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Steps:</h3>
               <ol className="list-decimal pl-6 space-y-4 text-gray-700">
                 <li>
                   <strong>Compute In-Degrees:</strong> For each node (e.g., file, target, or package), calculate the number of incoming edges (dependencies). For example, App has two dependencies (FrameworkA and FrameworkB), so its in-degree is 2.
@@ -91,7 +91,7 @@ export default function XcodeBuildCaseStudy() {
               <p className="text-gray-700 mb-4">
                 Computing in-degrees requires iterating through all nodes and their edges, taking O(V + E) time, where V is the number of vertices (components) and E is the number of edges (dependencies). Thus, overall the complexity is O(V + E).
               </p>
-              <div className="font-mono text-sm bg-white p-4 rounded border">
+              <div className="font-mono text-sm bg-white p-4 text-gray-800 rounded border">
                 Time Complexity: O(V + E)
                 <br />• V = number of vertices (components)
                 <br />• E = number of edges (dependencies)
@@ -104,14 +104,14 @@ export default function XcodeBuildCaseStudy() {
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Build Optimizations</h2>
             <div className="space-y-6">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3">Build Time Prediction</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Build Time Prediction</h3>
                 <p className="text-gray-700">
                   The optimizations can include predicting the build time for each dependency. Prioritize nodes with longer build times in the topological order to maximize parallelization.
                 </p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3">Parallel Processing</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Parallel Processing</h3>
                 <p className="text-gray-700">
                   Use clustering approaches to group independent nodes (e.g., files with no mutual dependencies) for parallel compilation, leveraging multi-core systems.
                 </p>

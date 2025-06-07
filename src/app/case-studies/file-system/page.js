@@ -184,7 +184,7 @@ Huffman coding assigns shorter binary codes to more frequent symbols and longer 
             <p className="text-gray-700 mb-4">
               In 2023, Apple acquired WaveOne, a startup developing AI-driven video compression algorithms. WaveOne's technology uses "content-aware" compression, leveraging machine learning to prioritize elements like faces in a video frame to optimize bandwidth usage. This approach can reduce video file sizes by up to 50%, particularly for complex scenes, and is robust to connectivity disruptions.
             </p>
-            <p>Machine learning Algorithms such as Decision Trees can be used to make decisions on which Compression techniques will provide better results.</p>
+            <p className="text-gray-700 mb-4">Machine learning Algorithms such as Decision Trees can be used to make decisions on which Compression techniques will provide better results.</p>
             <div className="bg-gray-50 p-4 rounded-lg">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Machine Learning Features for Compression Decisions:</h3>
               <ul className="list-disc pl-6 text-gray-700">
@@ -206,7 +206,7 @@ Huffman coding assigns shorter binary codes to more frequent symbols and longer 
             
             {/* LZFSE Compression */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-3">LZFSE Compression</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">LZFSE Compression</h3>
               <ul className="space-y-4 text-gray-700">
                 <li><strong>Time Complexity:</strong>
                   <p>Compression and decompression performance:</p>
@@ -228,7 +228,7 @@ Huffman coding assigns shorter binary codes to more frequent symbols and longer 
 
             {/* B-tree Directory Structure */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-3">B-tree Directory Structure</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">B-tree Directory Structure</h3>
               <ul className="space-y-4 text-gray-700">
                 <li><strong>Search Operations:</strong>
                   <p>Time to locate files:</p>
@@ -250,7 +250,7 @@ Huffman coding assigns shorter binary codes to more frequent symbols and longer 
 
             {/* Inode Management */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-3">Inode Management</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Inode Management</h3>
               <ul className="space-y-4 text-gray-700">
                 <li><strong>Access Operations:</strong>
                   <p>Metadata operations speed:</p>
@@ -272,7 +272,7 @@ Huffman coding assigns shorter binary codes to more frequent symbols and longer 
 
             {/* Overall System Performance */}
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Combined Performance</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Combined Performance</h3>
               <ul className="space-y-4 text-gray-700">
                 <li><strong>Time Efficiency:</strong>
                   <p>Total operation time:</p>

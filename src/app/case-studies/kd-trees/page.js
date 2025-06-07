@@ -44,7 +44,7 @@ export default function MemoryManagementCaseStudy() {
             </p>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">K-Nearest Neighbors (k-NN) Implementation</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">K-Nearest Neighbors (k-NN) Implementation</h3>
               <p className="text-gray-700 mb-4">
                 When performing k-NN search, you need to maintain the best k points found so far. A priority queue (max-heap) allows:
               </p>
@@ -121,7 +121,7 @@ export default function MemoryManagementCaseStudy() {
 
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-semibold mb-3">SIFT Algorithm Stages</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">SIFT Algorithm Stages</h3>
                 <ul className="list-disc pl-6 text-gray-700 space-y-2">
                   <li>
                     <strong>Scale-Space Extrema Detection:</strong> Identifies potential keypoints across multiple scales using a Difference of Gaussian (DoG) pyramid
@@ -139,7 +139,7 @@ export default function MemoryManagementCaseStudy() {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-3">Best-Bin-First (BBF) Search</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Best-Bin-First (BBF) Search</h3>
                 <p className="text-gray-700 mb-4">
                   The matching of SIFT descriptors is optimized using a Best-Bin-First (BBF) search strategy implemented with k-d trees. This approach:
                 </p>
@@ -152,7 +152,7 @@ export default function MemoryManagementCaseStudy() {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3">Performance Benefits</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Performance Benefits</h3>
                 <ul className="list-disc pl-6 text-gray-700 space-y-2">
                   <li>Reduces matching complexity from O(n) to O(log n) in average case</li>
                   <li>Enables real-time feature matching in computer vision applications</li>
@@ -170,7 +170,7 @@ export default function MemoryManagementCaseStudy() {
             <div className="space-y-8">
               {/* Time Complexity */}
               <div>
-                <h3 className="text-xl font-semibold mb-3">Time Complexity</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Time Complexity</h3>
                 <ul className="space-y-4 text-gray-700">
                   <li>
                     <strong>Brute-force matching:</strong>
@@ -192,7 +192,7 @@ export default function MemoryManagementCaseStudy() {
 
               {/* Space and Performance */}
               <div>
-                <h3 className="text-xl font-semibold mb-3">Space and Performance</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Space and Performance</h3>
                 <ul className="space-y-4 text-gray-700">
                   <li>
                     <strong>Space Complexity:</strong>
@@ -214,7 +214,7 @@ export default function MemoryManagementCaseStudy() {
 
               {/* Trade-offs */}
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3">Implementation Trade-offs</h3>
+                <h3 className="text-xl font-semibold text-gray-800 text-gray-800 mb-3">Implementation Trade-offs</h3>
                 <ul className="space-y-4 text-gray-700">
                   <li>
                     <strong>Scalability:</strong>

@@ -47,21 +47,21 @@ export default function AIIntegrationCaseStudy() {
             
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-semibold mb-3">Scenario:</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Scenario:</h3>
                 <p className="text-gray-700">
                   Imagine an iOS app that personalizes the user interface by analyzing user interactions (e.g., app usage frequency, screen time, or theme preferences) over specific time periods.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-3">Data Representation:</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Data Representation:</h3>
                 <p className="text-gray-700 mb-4">
                   Represent user interactions as an array where each element corresponds to an event (e.g., app opened, theme selected, notification clicked) with attributes like timestamp, type, or value. For example, arr[i] = {`{app_id, timestamp, duration}`} for app usage events.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-3">Queries:</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Queries:</h3>
                 <p className="text-gray-700 mb-2">
                   Personalization tasks can be modeled as range queries, such as:
                 </p>
@@ -82,7 +82,7 @@ export default function AIIntegrationCaseStudy() {
             </p>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Algorithm Benefits:</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Algorithm Benefits:</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Efficient query processing for range-based personalization tasks</li>
                 <li>Privacy-friendly implementation (data stays on device)</li>
@@ -108,8 +108,8 @@ export default function AIIntegrationCaseStudy() {
           {/* Technical Details */}
           <section>
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Time Complexity Analysis:</h3>
-              <div className="font-mono text-sm bg-white p-4 rounded border">
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Time Complexity Analysis:</h3>
+              <div className="font-mono text-sm bg-white p-4 rounded border text-gray-800">
                 O((N + Q)√N) where:
                 <br />• N = size of the user interaction array
                 <br />• Q = number of personalization queries

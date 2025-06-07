@@ -66,7 +66,7 @@ export default function SpotlightSearchCaseStudy() {
             </ul>
             
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Complexity Analysis:</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Complexity Analysis:</h3>
               <ul className="space-y-2 text-gray-700">
                 <li><strong>Construction:</strong> 
                   <p>Time complexity for building the index:</p>
@@ -110,7 +110,7 @@ export default function SpotlightSearchCaseStudy() {
             </ul>
             
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Complexity Analysis:</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Complexity Analysis:</h3>
               <ul className="space-y-2 text-gray-700">
                 <li><strong>Construction:</strong> 
                   <p>Time to build the trie:</p>
@@ -128,7 +128,7 @@ export default function SpotlightSearchCaseStudy() {
                   where A is alphabet size
                 </li>
               </ul>
-              <p className="mt-4 text-sm text-gray-600">
+              <p className="text-gray-800">
                 The Trie's efficiency makes it ideal for real-time autocompletion, as query time depends only on the length of the search string, not the size of the dataset.
               </p>
             </div>
@@ -146,7 +146,7 @@ export default function SpotlightSearchCaseStudy() {
             </ul>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Mathematical Formulation:</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Mathematical Formulation:</h3>
               <ul className="space-y-4 text-gray-700">
                 <li>
                   <strong>TF(t, d):</strong>
@@ -162,7 +162,7 @@ export default function SpotlightSearchCaseStudy() {
                 </li>
               </ul>
 
-              <h3 className="text-xl font-semibold mt-6 mb-3">Efficiency Analysis:</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Efficiency Analysis:</h3>
               <ul className="space-y-2 text-gray-700">
                 <li><strong>Preprocessing:</strong> 
                   <p>Initial document processing time:</p>
@@ -191,11 +191,11 @@ export default function SpotlightSearchCaseStudy() {
             </p>
             
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Levenshtein Distance Algorithm:</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Levenshtein Distance Algorithm:</h3>
               <p className="text-gray-700 mb-2">
                 Measures the minimum number of single-character edits (insertions, deletions, substitutions) to transform one string into another.
               </p>
-              <div className="font-mono text-lg bg-gray-100 p-3 rounded mt-2">
+              <div className="font-mono text-lg bg-gray-100 p-3 rounded text-gray-800 mt-2">
                 dp[i][j] = min(
                   dp[i-1][j] + 1,           // deletion
                   dp[i][j-1] + 1,           // insertion
@@ -203,7 +203,7 @@ export default function SpotlightSearchCaseStudy() {
                 )
               </div>
 
-              <h3 className="text-xl font-semibold mt-6 mb-3">Efficiency Analysis:</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Efficiency Analysis:</h3>
               <ul className="space-y-2 text-gray-700">
                 <li><strong>Time Complexity:</strong> 
                   <p>Processing time for string comparison:</p>
@@ -234,7 +234,7 @@ export default function SpotlightSearchCaseStudy() {
 
             <div className="space-y-4">
               <div>
-                <h3 className="text-xl font-semibold mb-2">Implementation:</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">Implementation:</h3>
                 <ul className="list-disc pl-6 text-gray-700">
                   <li>Lightweight RL model (contextual bandits) on-device</li>
                   <li>Reward function based on user actions</li>
@@ -243,7 +243,7 @@ export default function SpotlightSearchCaseStudy() {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-2">Benefits:</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">Benefits:</h3>
                 <ul className="list-disc pl-6 text-gray-700">
                   <li>Personalized results based on user behavior</li>
                   <li>Adaptation to changing user habits</li>
