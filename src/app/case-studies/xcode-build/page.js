@@ -33,7 +33,7 @@ export default function XcodeBuildCaseStudy() {
           <section className="mb-8">
             <div className="md:float-right md:w-1/2 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0579.jpeg" 
+                src="/portfolio/diagrams/IMG_0579.jpeg" 
                 alt="XCode's Build System" 
                 className="w-full rounded-lg shadow-md mb-2"
               />

@@ -41,7 +41,7 @@ export default function SpotlightSearchCaseStudy() {
             <section className="mb-8">
             <div className="md:float-right md:w-1/1 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0573.jpeg" 
+                src="/portfolio/diagrams/IMG_0573.jpeg" 
                 alt="Spotlight Search Sytem Workflow" 
                 className="w-full rounded-lg shadow-md mb-2"
               />

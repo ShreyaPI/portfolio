@@ -48,7 +48,7 @@ export default function FindMyNetworkCaseStudy() {
           <section className="mb-8">
             <div className="md:float-right md:w-3/5 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0583.jpeg" 
+                src="/portfolio/diagrams/IMG_0583.jpeg" 
                 alt="The working of the FindMy Network" 
                 className="w-full rounded-lg shadow-md mb-2"
               />

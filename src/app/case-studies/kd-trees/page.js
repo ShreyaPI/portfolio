@@ -28,7 +28,7 @@ export default function MemoryManagementCaseStudy() {
           <section className="mb-8">
             <div className="md:float-right md:w-1/1 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0575.jpeg" 
+                src="/portfolio/diagrams/IMG_0575.jpeg" 
                 alt="Multi-dimensional Data" 
                 className="w-full rounded-lg shadow-md mb-2"
               />
@@ -59,7 +59,7 @@ export default function MemoryManagementCaseStudy() {
           <section className="mb-8">
             <div className="md:float-right md:w-1/1 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0576.jpeg" 
+                src="/portfolio/diagrams/IMG_0576.jpeg" 
                 alt="Audio Recognition pipelinepipeline" 
                 className="w-full rounded-lg shadow-md mb-2"
               />
@@ -96,7 +96,7 @@ export default function MemoryManagementCaseStudy() {
             <section className="mb-8">
             <div className="md:float-right md:w-1/1 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0577.jpeg" 
+                src="/portfolio/diagrams/IMG_0577.jpeg" 
                 alt="Image classification pipeline pipeline" 
                 className="w-full rounded-lg shadow-md mb-2"
               />

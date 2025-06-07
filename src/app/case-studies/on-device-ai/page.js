@@ -35,7 +35,7 @@ export default function OnDeviceAI() {
           <section className="mb-8">
             <div className="md:float-right md:w-1/1 md:ml-6 mb-4">
               <img 
-                src="/image/Apple-A16-Bionic.jpg" 
+                src="/portfolio/image/Apple-A16-Bionic.jpg" 
                 alt="A16 Bionic " 
                 className="w-full rounded-lg shadow-md mb-2"
               />
@@ -166,7 +166,7 @@ export default function OnDeviceAI() {
               <section className="mb-8">
             <div className="md:float-right md:w-2/6 md:ml-6 mb-4">
               <img 
-                src="/image/fft.jpg" 
+                src="/portfolio/image/fft.jpg" 
                 alt="Intution of Fast Fourier Transform" 
                 className="w-full rounded-lg shadow-md mb-2"
               />
@@ -190,7 +190,7 @@ export default function OnDeviceAI() {
               <section className="mb-8">
             <div className="md:float-right md:w-2/5 md:ml-6 mb-4">
               <img 
-                src="/image/strassen.png" 
+                src="/portfolio/image/strassen.png" 
                 alt="Strassen calculations" 
                 className="w-full rounded-lg shadow-md mb-2"
               />

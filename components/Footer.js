@@ -49,15 +49,11 @@ export default function Footer() {
             <h3 className="text-gray-800 font-semibold mb-4">Connect</h3>
             <ul className="space-y-2">
               <li>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 transition-colors">
+                <a href="https://github.com/ShreyaPI" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 transition-colors">
                   GitHub
                 </a>
               </li>
-              <li>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-500 transition-colors">
-                  LinkedIn
-                </a>
-              </li>
+              
             </ul>
           </div>
 

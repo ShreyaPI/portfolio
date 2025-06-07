@@ -21,7 +21,7 @@ export default function GameKitMatchmakingCaseStudy() {
           <section className="mb-8">
             <div className="md:float-right md:w-1/2 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0580.jpeg" 
+                src="/portfolio/diagrams/IMG_0580.jpeg" 
                 alt="Process of Finding a Game Match for Online Gaming" 
                 className="w-full rounded-lg shadow-md mb-2"
               />
@@ -122,7 +122,7 @@ export default function GameKitMatchmakingCaseStudy() {
           <section className="mb-8">
             <div className="md:float-right md:w-1/1 md:ml-6 mb-4">
               <img 
-                src="/image/Gamekit.png" 
+                src="/portfolio/image/Gamekit.png" 
                 alt="The rules/criterias for GameKit matchmaking " 
                 className="w-full rounded-lg shadow-md mb-2"
               />

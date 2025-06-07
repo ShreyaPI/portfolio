@@ -70,7 +70,7 @@ export default function CaseStudies() {
       <div
   className="h-[50vh] relative flex items-center justify-center bg-cover bg-center bg-no-repeat"
   style={{
-    backgroundImage: `url("/image/background.jpg")`,
+    backgroundImage: `url("/portfolio/image/background.jpg")`,
   }}
 >
   {/* Dark overlay */}

@@ -24,7 +24,7 @@ export default function ImageSegmentationCaseStudy() {
           <section className="mb-8">
             <div className="md:float-right md:w-1/1 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0571.jpeg" 
+                src="/portfolio/diagrams/IMG_0571.jpeg" 
                 alt="File System Architecture Diagram 1" 
                 className="w-full rounded-lg shadow-md mb-2"
               />
@@ -116,7 +116,7 @@ export default function ImageSegmentationCaseStudy() {
           <section className="mb-8">
             <div className="md:float-right md:w-1/1 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0572.jpeg" 
+                src="/portfolio/diagrams/IMG_0572.jpeg" 
                 alt="Image Segmentation pipeline" 
                 className="w-full rounded-lg shadow-md mb-2"
               />
@@ -134,7 +134,7 @@ export default function ImageSegmentationCaseStudy() {
               <section className="mb-8">
             <div className="md:float-right md:w-1/4 md:ml-6 mb-4">
               <img 
-                src="/image/wallpaper.png" 
+                src="/portfolio/image/wallpaper.png" 
                 alt="Segmentated wallpaper Suggestions" 
                 className="w-full rounded-lg shadow-md mb-2"
               />

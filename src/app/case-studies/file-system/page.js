@@ -34,7 +34,7 @@ export default function FileSystemCaseStudy() {
           <section className="mb-8">
             <div className="md:float-right md:w-2/5 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0566.jpeg" 
+                src="/portfolio/diagrams/IMG_0566.jpeg" 
                 alt="File System Architecture Diagram 1" 
                 className="w-full rounded-lg shadow-md mb-2"
               />
@@ -91,7 +91,7 @@ export default function FileSystemCaseStudy() {
             <section className="mb-8">
             <div className="md:float-right md:w-3/5 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0567.jpeg" 
+                src="/portfolio/diagrams/IMG_0567.jpeg" 
                 alt="The compression Module" 
                 className="w-full rounded-lg shadow-md mb-2"
               />
@@ -119,7 +119,7 @@ Huffman coding assigns shorter binary codes to more frequent symbols and longer 
 <section className="mb-8">
             <div className="md:float-right md:w-1/1 md:ml-6 mb-4">
               <img 
-                src="/image/huffman_coding_visualisation.png" 
+                src="/portfolio/image/huffman_coding_visualisation.png" 
                 alt="Huffman Coding Example" 
                 className="w-full rounded-lg shadow-md mb-2"
               />
@@ -135,7 +135,7 @@ Huffman coding assigns shorter binary codes to more frequent symbols and longer 
             <section className="mb-8">
             <div className="md:float-right md:w-3/5 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0568.jpeg" 
+                src="/portfolio/diagrams/IMG_0568.jpeg" 
                 alt="The Storage Module" 
                 className="w-full rounded-lg shadow-md mb-2"
               />
@@ -161,7 +161,7 @@ Huffman coding assigns shorter binary codes to more frequent symbols and longer 
           <section className="mb-8">
             <div className="md:float-center md:w-3/4 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0569.jpeg" 
+                src="/portfolio/diagrams/IMG_0569.jpeg" 
                 alt="The search Module" 
                 className="w-full rounded-lg shadow-md mb-2"
               />
@@ -171,7 +171,7 @@ Huffman coding assigns shorter binary codes to more frequent symbols and longer 
           <section className="mb-8">
             <div className="md:float-center md:w-3/4 md:ml-6 mb-4">
               <img 
-                src="/diagrams/IMG_0570.jpeg" 
+                src="/portfolio/diagrams/IMG_0570.jpeg" 
                 alt="The Retrieval Module" 
                 className="w-full rounded-lg shadow-md mb-2"
               />

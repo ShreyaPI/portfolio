@@ -12,7 +12,7 @@ const educationData = [
       "Current CGPA: 9.66",
       "Member of the University's Data Science Club",
     ],
-    logo: "/image/KLElogo.png"
+    logo: "/portfolio/image/KLElogo.png"
   },
   {
     degree: "Research Intern",
@@ -21,7 +21,7 @@ const educationData = [
     achievements: [
       "Worked on physics based underwater image restoration",
     ],
-    logo: "/image/CEVIlogo.jpg"
+    logo: "/portfolio/image/CEVIlogo.jpg"
   },
   {
     degree: "Higher Secondary Education",
@@ -31,7 +31,7 @@ const educationData = [
       "12th Percentage: 95%",
       "Class Valedictorian",
     ],
-    logo: "/image/Mount-Litera-Zee-School-Goa.jpg"
+    logo: "/portfolio/image/Mount-Litera-Zee-School-Goa.jpg"
   }
 ];
 
