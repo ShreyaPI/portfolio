@@ -253,7 +253,7 @@ export default function MemoryManagementCaseStudy() {
           <section className="mt-8 pt-8 border-t border-gray-200">
             <div className="flex justify-end">
               <a
-                href="https://github.com/yourusername/kdtree-optimization"
+                href="https://github.com/ShreyaPI/portfolio/tree/main/public/codes/kd-trees"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors duration-200"
