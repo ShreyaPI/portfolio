@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -9,32 +9,47 @@ export default function Navbar() {
         </Link>
         <ul className="flex gap-6">
           <li>
-            <Link href="/#about" className="text-gray-800 hover:text-blue-500">
+            <Link href="#about" className="text-gray-800 hover:text-blue-500">
               About
             </Link>
           </li>
           <li>
-            <Link href="/#education" className="text-gray-800 hover:text-blue-500">
+            <Link
+              href="#education"
+              className="text-gray-800 hover:text-blue-500"
+            >
               Education
             </Link>
           </li>
           <li>
-            <Link href="/#projects" className="text-gray-800 hover:text-blue-500">
+            <Link
+              href="#projects"
+              className="text-gray-800 hover:text-blue-500"
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link href="/#DomainDesc" className="text-gray-800 hover:text-blue-500">
+            <Link
+              href="#DomainDesc"
+              className="text-gray-800 hover:text-blue-500"
+            >
               Domain Description
             </Link>
           </li>
           <li>
-            <Link href="/case-studies" className="text-gray-800 hover:text-blue-500">
+            <Link
+              href="/case-studies"
+              className="text-gray-800 hover:text-blue-500"
+            >
               Case Studies
             </Link>
           </li>
           <li>
-            <Link href="/#contact" className="text-gray-800 hover:text-blue-500">
+            <Link
+              href="#contact"
+              className="text-gray-800 hover:text-blue-500"
+            >
               Contact
             </Link>
           </li>
@@ -42,4 +57,4 @@ export default function Navbar() {
       </div>
     </nav>
   );
-} 
+}

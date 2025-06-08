@@ -19,7 +19,7 @@ export default function Home() {
       const href = e.currentTarget.getAttribute('href');
       if (href?.startsWith('/#')) {
         e.preventDefault();
-        const targetId = href.replace('/#', '');
+        const targetId = href.replace('/#', '/');
         const element = document.getElementById(targetId);
         if (element) {
           const navbarHeight = 80; // Approximate navbar height

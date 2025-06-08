@@ -68,7 +68,7 @@ export default function ImageSegmentationCaseStudy() {
               
               <div className="mt-4">
                 <p className="text-gray-800 font-semibold">Total Time Complexity:</p>
-                <div className="font-mono text-lg bg-gray-100 p-3 rounded mt-2">
+                <div className="font-mono text-lg bg-gray-100 p-3 text-gray-700 rounded mt-2">
                   O(VE) paths × O(E) per path = O(VE²)
                 </div>
               </div>
