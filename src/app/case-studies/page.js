@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const caseStudies = [
   {
-    title: "Compression and Sorting Techniques in Apple's File System",
+    title: "Compression and Retrival Techniques in Apple's File System",
     description: "A deep dive into LZFSE compression, APFS structures, and AI-driven compression decisions in Apple's ecosystem.",
     link: "/case-studies/file-system"
   },

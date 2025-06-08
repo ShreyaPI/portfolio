@@ -15,7 +15,7 @@ const references = [
 export default function AIIntegrationCaseStudy() {
   return (
     <CaseStudyTemplate
-      title="Applying Mo's Algorithm to iOS Personalizations"
+      title="Applying MO's Algorithm to iOS Personalizations"
       description="Exploring efficient range query processing for user experience personalization in iOS"
       content={
         

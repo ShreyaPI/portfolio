@@ -72,9 +72,9 @@ export default function Home() {
         </section>
 
         {/* Domain Description Section */}
-        <section id="DomainDesc" className="py-1">
-          <DomainDescription />
-        </section>
+        {/* <section id="DomainDesc" className="py-1"> */}
+          {/* <DomainDescription /> */}
+        {/* </section> */}
 
         {/* Contact Section */}
         <section id="contact" className="py-16 bg-gray-50">

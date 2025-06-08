@@ -13,7 +13,7 @@ const references = [
 export default function FileSystemCaseStudy() {
   return (
     <CaseStudyTemplate
-      title="Compression and Sorting Techniques in Apple's File System"
+      title="Compression and Retrieval Techniques in Apple's File System"
       description="A Deep Dive into LZFSE, APFS Structures, and AI-Driven Compression Decisions"
       content={
         <div className="space-y-8">
