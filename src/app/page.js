@@ -17,9 +17,9 @@ export default function Home() {
     // Handle anchor links
     const handleLinkClick = (e) => {
       const href = e.currentTarget.getAttribute('href');
-      if (href?.startsWith('#')) {
+      if (href?.startsWith('/#')) {
         e.preventDefault();
-        const targetId = href.replace('#', '');
+        const targetId = href.replace('/#', '');
         const element = document.getElementById(targetId);
         if (element) {
           const navbarHeight = 80; // Approximate navbar height

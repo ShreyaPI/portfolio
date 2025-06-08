@@ -119,7 +119,7 @@ Huffman coding assigns shorter binary codes to more frequent symbols and longer 
 <section className="mb-8">
             <div className="md:float-right md:w-1/1 md:ml-6 mb-4">
               <img 
-                src="/portfolio/image/huffman_coding_visualisation.png" 
+                src="/portfolio/image/Huffman_coding_visualisation.png" 
                 alt="Huffman Coding Example" 
                 className="w-full rounded-lg shadow-md mb-2"
               />
@@ -228,7 +228,7 @@ Huffman coding assigns shorter binary codes to more frequent symbols and longer 
 
             {/* B-tree Directory Structure */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">B-tree Directory Structure</h3>
+              <h3 className="text-xl font-semibold mb-3">B-tree Directory Structure</h3>
               <ul className="space-y-4 text-gray-700">
                 <li><strong>Search Operations:</strong>
                   <p>Time to locate files:</p>
@@ -250,7 +250,7 @@ Huffman coding assigns shorter binary codes to more frequent symbols and longer 
 
             {/* Inode Management */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Inode Management</h3>
+              <h3 className="text-xl font-semibold mb-3">Inode Management</h3>
               <ul className="space-y-4 text-gray-700">
                 <li><strong>Access Operations:</strong>
                   <p>Metadata operations speed:</p>
@@ -272,7 +272,7 @@ Huffman coding assigns shorter binary codes to more frequent symbols and longer 
 
             {/* Overall System Performance */}
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Combined Performance</h3>
+              <h3 className="text-xl font-semibold mb-3">Combined Performance</h3>
               <ul className="space-y-4 text-gray-700">
                 <li><strong>Time Efficiency:</strong>
                   <p>Total operation time:</p>

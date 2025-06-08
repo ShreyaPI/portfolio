@@ -43,7 +43,7 @@ export default function CaseStudyTemplate({
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
               {title}
             </h1>
-            <p className="text-xl text-gray-600">
+            <p className="text-xl text-gray-600 dark:text-gray-300">
               {description}
             </p>
           </div>

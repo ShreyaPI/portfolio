@@ -68,7 +68,7 @@ export default function ImageSegmentationCaseStudy() {
               
               <div className="mt-4">
                 <p className="text-gray-800 font-semibold">Total Time Complexity:</p>
-                <div className="font-mono text-lg bg-gray-100 p-3 rounded text-gray-800 mt-2">
+                <div className="font-mono text-lg bg-gray-100 p-3 rounded mt-2">
                   O(VE) paths × O(E) per path = O(VE²)
                 </div>
               </div>
@@ -147,7 +147,7 @@ export default function ImageSegmentationCaseStudy() {
                 <ul className="list-disc pl-6 mt-2 space-y-2">
                   <li>Each pixel becomes a node.</li>
                   <li>Edges between neighboring pixels have capacities calculated by:
-                    <div className="bg-gray-50 p-4 my-2 rounded-lg font-mono text-sm text-gray-800">
+                    <div className="bg-gray-50 p-4 my-2 rounded-lg font-mono text-sm">
                       w<sub>ij</sub> = 100 * exp(-((I<sub>i</sub> - I<sub>j</sub>)²)/(2σ²))
                     </div>
                     where I<sub>i</sub> and I<sub>j</sub> are pixel intensities and σ controls sensitivity.

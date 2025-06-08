@@ -32,7 +32,7 @@ export default function MemoryManagementCaseStudy() {
                 alt="Multi-dimensional Data" 
                 className="w-full rounded-lg shadow-md mb-2"
               />
-              <p className="text-sm text-gray-600 text-center">Multi-dimensional data can be efficiently processed using kd-trees as you can eork with a tree in logarithmic time instead od a plane in linear</p>
+              <p className="text-sm text-gray-600 text-center">Multi-dimensional data can be efficiently processed using kd-trees as you can work with a tree in logarithmic time instead of a plane in linear time</p>
             </div>
             
           </section>

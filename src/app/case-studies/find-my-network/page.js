@@ -112,7 +112,7 @@ export default function FindMyNetworkCaseStudy() {
             <div className="bg-gray-50 p-6 rounded-lg space-y-4">
               <p className="text-gray-800">The probability of a false positive is given by:</p>
               <div className="flex justify-center">
-                <div className="font-mono text-lg text-gray-800">
+                <div className="font-mono text-lg">
                   p ≈ (1 - e^(-kn/m))^k
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function FindMyNetworkCaseStudy() {
             <div className="bg-gray-50 p-6 rounded-lg mt-4 space-y-4">
               <p className="text-gray-800">The optimal number of hash functions is:</p>
               <div className="flex justify-center">
-                <div className="font-mono text-lg text-gray-800">
+                <div className="font-mono text-lg">
                   k = (m/n)ln(2) ≈ 0.693(m/n)
                 </div>
               </div>
@@ -151,14 +151,14 @@ export default function FindMyNetworkCaseStudy() {
                 DSU groups devices detecting a beacon into clusters, using Find (with path compression) and Union (with union by rank) operations.
               </p>
               <div className="space-y-2">
-                <p className="font-semibold text-gray-800">Time Complexity:</p>
+                <p className="font-semibold">Time Complexity:</p>
                 <ul className="list-disc pl-6 text-gray-700 space-y-1">
                   <li>Initialization: O(N)</li>
                   <li>Find/Union: Amortized O(α(N)), where α(N) is the inverse Ackermann function, effectively constant (α(N) ≤ 5)</li>
                   <li>Per Beacon: Up to 5 operations (4 Union, 1 Find), costing O(α(N)) ≈ O(1)</li>
                   <li>Total for M beacons: O(M · α(N)) ≈ O(M)</li>
                 </ul>
-                <p className="font-semibold text-gray-800 mt-3">Space Complexity:</p>
+                <p className="font-semibold mt-3">Space Complexity:</p>
                 <p className="text-gray-700">O(N) for parent and rank arrays</p>
               </div>
             </div>
@@ -170,14 +170,14 @@ export default function FindMyNetworkCaseStudy() {
                 Checks if a beacon was processed, using an m-bit array and k hash functions (m ≈ 9.6M, k ≈ 7 for p = 0.01).
               </p>
               <div className="space-y-2">
-                <p className="font-semibold text-gray-800">Time Complexity:</p>
+                <p className="font-semibold">Time Complexity:</p>
                 <ul className="list-disc pl-6 text-gray-700 space-y-1">
                   <li>Initialization: O(m) ≈ O(M)</li>
                   <li>Add/Contains: O(k) ≈ O(1)</li>
                   <li>Per Beacon: 1 Add, 1 Contains, costing O(k) ≈ O(1)</li>
                   <li>Total for M beacons: O(M · k) ≈ O(M)</li>
                 </ul>
-                <p className="font-semibold text-gray-800 mt-3">Space Complexity:</p>
+                <p className="font-semibold mt-3">Space Complexity:</p>
                 <p className="text-gray-700">O(M) bits (≈ 1.2M bytes for M beacons)</p>
               </div>
             </div>
@@ -187,15 +187,15 @@ export default function FindMyNetworkCaseStudy() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Overall System Efficiency</h3>
               <div className="space-y-4">
                 <div>
-                  <p className="font-semibold text-gray-800">Time Complexity:</p>
+                  <p className="font-semibold">Time Complexity:</p>
                   <p className="text-gray-700">O(M) for processing M beacons, as both DSU and Bloom Filter operations are effectively constant per beacon.</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-800">Space Complexity:</p>
+                  <p className="font-semibold">Space Complexity:</p>
                   <p className="text-gray-700">O(N + M), dominated by DSU arrays (O(N)) and Bloom Filter (O(M) bits)</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-800">Practical Efficiency:</p>
+                  <p className="font-semibold">Practical Efficiency:</p>
                   <p className="text-gray-700">
                     With α(N) ≈ 1 and k ≈ 7, the system scales efficiently. DSU reduces uploads from O(k · M) to O(M), and Bloom Filters minimize memory usage (e.g., 6 bytes for M = 5).
                   </p>
