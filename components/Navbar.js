@@ -9,13 +9,13 @@ export default function Navbar() {
         </Link>
         <ul className="flex gap-6">
           <li>
-            <Link href="#about" className="text-gray-800 hover:text-blue-500">
+            <Link href="https://shreyapi.github.io/portfolio/#about" className="text-gray-800 hover:text-blue-500">
               About
             </Link>
           </li>
           <li>
             <Link
-              href="#education"
+              href="https://shreyapi.github.io/portfolio/#education"
               className="text-gray-800 hover:text-blue-500"
             >
               Education
@@ -31,7 +31,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#DomainDesc"
+              href="https://shreyapi.github.io/portfolio/#DomainDesc"
               className="text-gray-800 hover:text-blue-500"
             >
               Domain Description
@@ -47,7 +47,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#contact"
+              href="https://shreyapi.github.io/portfolio/#contact"
               className="text-gray-800 hover:text-blue-500"
             >
               Contact

@@ -20,12 +20,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="/#about" className="text-gray-600 hover:text-blue-500 transition-colors">
+                <a href="https://shreyapi.github.io/portfolio/#about" className="text-gray-600 hover:text-blue-500 transition-colors">
                   About
                 </a>
               </li>
               <li>
-                <a href="/#contact" className="text-gray-600 hover:text-blue-500 transition-colors">
+                <a href="https://shreyapi.github.io/portfolio/#contact" className="text-gray-600 hover:text-blue-500 transition-colors">
                   Contact
                 </a>
               </li>
